@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trx Framework Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .app {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      nav {
+        margin-bottom: 20px;
+      }
+
+      nav button {
+        padding: 8px 16px;
+        margin-right: 8px;
+        border: 1px solid #ddd;
+        background: #f5f5f5;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      nav button.active {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      .counter {
+        text-align: center;
+      }
+
+      .counter button {
+        padding: 8px 16px;
+        margin: 0 4px;
+        border: 1px solid #ddd;
+        background: #f8f9fa;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      .counter button:hover {
+        background: #e9ecef;
+      }
+
+      .todo-list input {
+        padding: 8px;
+        margin-right: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 300px;
+      }
+
+      .todo-list ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .todo-list li {
+        padding: 8px;
+        margin: 4px 0;
+        background: #f8f9fa;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .todo-list button {
+        padding: 4px 8px;
+        border: 1px solid #dc3545;
+        background: #dc3545;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+      .diagnostics { border: 1px solid #e0e0e0; background: #fdfdfd; padding: 12px; margin-bottom: 16px; border-radius: 6px; }
+      .diagnostics h2 { margin-top: 0; font-size: 1.1rem; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="dist/index.js"></script>
+  </body>
+</html>

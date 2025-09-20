@@ -1,0 +1,46 @@
+{
+    "compilerOptions":  {
+                            "target":  "ES2020",
+                            "module":  "NodeNext",
+                            "moduleResolution":  "NodeNext",
+                            "lib":  [
+                                        "ES2020",
+                                        "DOM"
+                                    ],
+                            "outDir":  "./dist",
+                            "rootDir":  "./src",
+                            "strict":  true,
+                            "esModuleInterop":  true,
+                            "skipLibCheck":  true,
+                            "forceConsistentCasingInFileNames":  true,
+                            "declaration":  true,
+                            "declarationMap":  true,
+                            "sourceMap":  true,
+                            "removeComments":  false,
+                            "noImplicitAny":  true,
+                            "noImplicitReturns":  true,
+                            "noFallthroughCasesInSwitch":  true,
+                            "noUncheckedIndexedAccess":  true,
+                            "exactOptionalPropertyTypes":  true,
+                            "jsx":  "react",
+                            "jsxFactory":  "createElement",
+                            "jsxFragmentFactory":  "Fragment",
+                            "baseUrl":  ".",
+                            "paths":  {
+                                          "semantrix/*":  [
+                                                              "./src/*"
+                                                          ],
+                                          "semantrix":  [
+                                                            "./src/index.ts"
+                                                        ]
+                                      }
+                        },
+    "include":  [
+                    "src/**/*.ts",
+                    "src/**/*.tsx"
+                ],
+    "exclude":  [
+                    "node_modules",
+                    "dist"
+                ]
+}
